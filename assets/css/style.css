@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto+Condensed&display=swap');
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #01353E;
+}
+
+.button {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #242121;
+    width: 350px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
