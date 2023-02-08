@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto+Condensed&display=swap');
 
 .container {
-    max-width: 1200px;
+    max-width: 1230px;
+    /*30px для padding по 15px с каждой стороны*/
     margin: auto;
 }
 
