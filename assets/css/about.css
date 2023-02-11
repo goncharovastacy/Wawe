@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+#about {
+    padding: 189px 199px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(25%, 4);
+    column-gap: 120px;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 18px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: #242121;
+}
+
+/* -------------TABLET----------------- */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr, 8);
+    }
+
+    .p2 {
+        grid-row: 2 / 3 ;
+    }
+
+    .p3 {
+        grid-row: 3 / 4 ;
+    }
+
+    .p4 {
+        grid-row: 4 / 5 ;
+    }
+}
+
+/* --------------PHONE-------------------- */
+@media (max-width: 767px) {
+    #about {
+        padding: 0;
+    }
+
+    .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr, 8);
+        font-size: 0.8rem;
+        margin: 30px;
+    }
+
+    .p2 {
+        grid-row: 2 / 3 ;
+    }
+
+    .p3 {
+        grid-row: 3 / 4 ;
+    }
+
+    .p4 {
+        grid-row: 4 / 5 ;
+    }
+}
+
