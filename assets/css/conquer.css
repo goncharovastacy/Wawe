@@ -1,7 +1,6 @@
 #conquer {
-    background-image: url(/assets/images/picture1.png);
-    background-position: top right;
-    background-repeat: no-repeat;
+    background: url(../images/picture1.png) right top no-repeat;
+    background-size: 50vw;
 }
 
 .conquer {
@@ -16,6 +15,7 @@
 .conquer__block {
     margin-top: 71px;
     max-width: 507px;
+
 }
 
 .conquer__block__text {
@@ -27,6 +27,7 @@
     letter-spacing: 0.6px;
 }
 
-/*.conquer__block {
+.conquer__block__text_second,
+.conquer__block__text_third {
     margin-top: 30px;
-}*/
+}
