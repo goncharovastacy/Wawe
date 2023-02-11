@@ -21,6 +21,11 @@ h2 {
     color: #01353E;
 }
 
+/*
+h2::after {
+    content: url(../images/autor.svg);
+}
+*/
 .button {
     font-family: 'Roboto Condensed';
     font-style: normal;
