@@ -1,0 +1,33 @@
+#conquer {
+    background: url(../images/picture1.png) right top no-repeat;
+    background-size: 50vw;
+}
+
+.conquer {
+    padding: 200px 15px;
+}
+
+.conquer__headline {
+    text-align: left;
+    margin: 0;
+}
+
+.conquer__block {
+    margin-top: 71px;
+    max-width: 507px;
+
+}
+
+.conquer__block__text {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+
+.conquer__block__text_second,
+.conquer__block__text_third {
+    margin-top: 30px;
+}

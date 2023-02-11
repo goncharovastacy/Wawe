@@ -1,0 +1,22 @@
+.ourteam {
+    display: flex;
+    justify-content: center;
+}
+
+.ourteam_headline {
+    padding: 200px 15px;
+}
+
+.instructors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instructors_text {
+    display: flex;
+    justify-content: center;
+}
+
+.instructors__card {
+    max-width: 330px;
+}
