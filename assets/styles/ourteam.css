@@ -9,10 +9,14 @@
 
 .instructors {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .instructors_text {
-    display: flex; 
+    display: flex;
     justify-content: center;
+}
+
+.instructors__card {
+    max-width: 330px;
 }
