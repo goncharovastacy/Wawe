@@ -1,0 +1,18 @@
+.ourteam {
+    display: flex;
+    justify-content: center;
+}
+
+.ourteam_headline {
+    padding: 200px 15px;
+}
+
+.instructors {
+    display: flex;
+    justify-content: center;
+}
+
+.instructors_text {
+    display: flex; 
+    justify-content: center;
+}
