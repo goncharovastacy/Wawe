@@ -2,17 +2,6 @@
     background-color: #F8F8F8;
 }
 
-.services {
-    padding: 200px 15px;
-}
-
-.services__description {
-    margin-top: 101px;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(184px, 350px));
-    column-gap: 75px;
-}
-
 .services__description__block__headline {
     display: flex;
     justify-content: center;
@@ -26,7 +15,6 @@
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.6px;
     color: #242121;
@@ -47,12 +35,6 @@
     margin-right: 10px;
 }
 
-.services__advantages {
-    margin-top: 103px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .services__advantages__block {
     padding-top: 1px;
     display: flex;
@@ -70,4 +52,82 @@
     line-height: 18px;
     letter-spacing: 0.6px;
     color: #242121;
+}
+
+@media screen and (max-width: 767px) {
+    .services {
+        padding: 100px 15px;
+    }
+
+    .services__description {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr, 3);
+        column-gap: 75px;
+    }
+
+    .services__advantages {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services__advantages__block_with-text {
+        margin-top: 20px;
+    }
+
+    .services__description__block__headline h3 {
+        font-size: 18px;
+    }
+
+    .services__advantages__block__image {
+        max-width: 346px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .services {
+        padding: 200px 15px;
+    }
+
+    .services__description {
+        margin-top: 101px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(184px, 350px));
+        column-gap: 75px;
+    }
+
+    .services__advantages {
+        margin-top: 103px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services__description__block__headline h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .services {
+        padding: 200px 15px;
+    }
+
+    .services__description {
+        margin-top: 101px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(184px, 350px));
+        column-gap: 75px;
+    }
+
+    .services__advantages {
+        margin-top: 103px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services__description__block__headline h3 {
+        font-size: 24px;
+    }
 }
