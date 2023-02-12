@@ -1,0 +1,44 @@
+#offers {
+    background-color: #F8F8F8;
+}
+
+.offers_headline {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.offers_sorts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers_sorts_standart {
+    max-width: 360px;
+    max-height: 577px;
+    background-color: #FFFFFF;
+}
+
+.offers_sorts_allinclusive {
+    max-width: 360px;
+    max-height: 577px;
+    background-color: #FFFFFF;
+}
+
+.offers_sorts_profi {
+    max-width: 360px;
+    max-height: 577px;
+    background-color: #FFFFFF;
+}
+    
+.offers_sorts_standart_description1 {
+    padding: 58px 0 137px 43px;
+}
+
+.offers_sorts_allinclusive_description2 {
+    padding: 58px 0 137px 43px;
+}
+
+.offers_sorts_profi_description3 {
+    padding: 58px 0 137px 43px;
+}
