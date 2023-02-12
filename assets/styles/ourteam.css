@@ -17,3 +17,15 @@
 .instructors__card {
     max-width: 330px;
 }
+
+.instructors__card_name {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.instructors__card_position {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
