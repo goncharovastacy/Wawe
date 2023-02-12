@@ -1,0 +1,58 @@
+#quote {
+    background-color: #F8F8F8;
+}
+
+.quote {
+    padding: 80px 80px;
+}
+
+.quote__quote {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    letter-spacing: 0.6px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.quote__cite {
+    margin-left: 65%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    letter-spacing: 0.6px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
+
+/* -------------TABLET----------------- */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .quote {
+        padding: 50px 50px;
+    }
+
+    .quote__cite {
+        margin-left: 55%;
+    }
+}
+
+/* --------------PHONE-------------------- */
+@media (max-width: 767px) {
+    .quote {
+        padding: 50px 50px;
+    }
+
+    .quote__quote {
+        text-align: center;
+        letter-spacing: 0.6px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .quote__cite {
+        margin-left: 0;
+    }
+}
+
