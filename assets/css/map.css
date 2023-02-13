@@ -2,3 +2,17 @@
     background-color: #FFFFFF;
 }
 
+.map_area {
+    max-width: 100%;
+    margin: 200px 0 200px 100px;
+}
+
+.map {
+    max-width: 90%;
+}
+
+.nav_sign {
+    position: relative;
+    left: 931px;
+    top: 299px;
+}
