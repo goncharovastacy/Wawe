@@ -1,6 +1,7 @@
 .ourteam {
     display: flex;
     justify-content: center;
+    margin-top: 197px;
 }
 
 .ourteam_headline {
@@ -10,13 +11,21 @@
 .instructors {
     display: flex;
     justify-content: space-between;
-}
-
-.instructors_text {
-    display: flex;
-    justify-content: center;
+    margin-top: 212px;
 }
 
 .instructors__card {
     max-width: 330px;
+}
+
+.instructors__card_name {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.instructors__card_position {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
 }
