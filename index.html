@@ -673,21 +673,18 @@
           <h2>ОСТАВИТЬ ЗАЯВКУ</h2>
         </div>
         <div class="order">
-          <div class="form">
-            <div class="form_decoration">
-              <input type="text" name="firstname" placeholder="Имя" />
-            </div>
-            <div>
-              <input type="number" name="phonenumber" placeholder="Телефон" />
-            </div>
-            <div>
+          <div class="sign">
+            <form class="form order_form">
+              <input class="form_field" type="text" placeholder="Имя" />
+              <input class="form_field" type="phone" placeholder="Телефон" />
               <textarea
-                rows="10"
                 cols="60"
+                class="form_field form_field_area"
                 placeholder="Оставьте сообщение, и мы свяжемся с Вами в ближайшее время"
+                name="id"
               ></textarea>
-            </div>
-            <div class="form_button">
+            </form>
+            <div class="submit_button">
               <button class="button">ОТПРАВИТЬ</button>
             </div>
           </div>
@@ -708,15 +705,13 @@
           </div>
         </div>
       </div>
-      <nav class="nav_footer">
-        <a class="nav-link active footer__navigation__link" href="#"
-          >INSTAGRAM</a
-        >
-        <a class="nav-link footer__navigation__link" href="#">FACEBOOK</a>
-        <a class="nav-link footer__navigation__link" href="#">YOUTUBE</a>
+      <nav class="app_footer">
+        <a class="social_apps" href="#">INSTAGRAM</a>
+        <a class="social_apps" href="#">FACEBOOK</a>
+        <a class="social_apps" href="#">YOUTUBE</a>
       </nav>
       <section id="end">
-        <img class="logo" src="./assets/images/logo.png" alt="logo" />
+        <img class="logo_footer" src="./assets/images/logo.png" alt="logo" />
       </section>
     </footer>
     <!-- -------------ZARRINA------------- -->
