@@ -2,3 +2,11 @@
     background-color: #FFFFFF;
 }
 
+.map {
+    max-width: 100%; 
+    margin: 200px 0 0 100px;
+}
+
+.mapArea {
+    max-width: 80%; 
+}
