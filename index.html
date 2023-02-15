@@ -226,12 +226,11 @@
             <h2>ГАЛЕРЕЯ</h2>
             <div class="gallery-wrapper">
               <div class="tabs-wrapper">
-                <ul
-                  class="nav nav-tabs gallery__navigation"
-                  id="myTab"
-                  role="tablist"
-                >
-                  <li class="nav-item" role="presentation">
+                <ul class="nav gallery__navigation" id="myTab" role="tablist">
+                  <li
+                    class="nav-item gallery__navigation__li"
+                    role="presentation"
+                  >
                     <button
                       class="nav-link active gallery__navigation__link"
                       id="home-tab"
@@ -245,7 +244,10 @@
                       ВСЕ
                     </button>
                   </li>
-                  <li class="nav-item" role="presentation">
+                  <li
+                    class="nav-item gallery__navigation__li"
+                    role="presentation"
+                  >
                     <button
                       class="nav-link gallery__navigation__link"
                       id="profile-tab"
@@ -259,7 +261,10 @@
                       ТУРИСТЫ
                     </button>
                   </li>
-                  <li class="nav-item" role="presentation">
+                  <li
+                    class="nav-item gallery__navigation__li"
+                    role="presentation"
+                  >
                     <button
                       class="nav-link gallery__navigation__link"
                       id="contact-tab"
@@ -273,7 +278,10 @@
                       ПРИРОДА
                     </button>
                   </li>
-                  <li class="nav-item" role="presentation">
+                  <li
+                    class="nav-item gallery__navigation__li"
+                    role="presentation"
+                  >
                     <button
                       class="nav-link gallery__navigation__link"
                       id="disabled-tab"
@@ -296,7 +304,7 @@
                     aria-labelledby="home-tab"
                     tabindex="0"
                   >
-                    <div class="gallery__images">
+                    <div class="gallery__images gallery__images__screen">
                       <div
                         class="gallery__images__block gallery__images__block_first"
                       >
@@ -335,6 +343,18 @@
                         />
                       </div>
                     </div>
+                    <div class="gallery__images gallery__images_mobile">
+                      <img
+                        src="./assets/images/picture2.png"
+                        alt=""
+                        class="gallery__images_mobile__image"
+                      />
+                      <img
+                        src="./assets/images/picture7.png"
+                        alt=""
+                        class="gallery__images_mobile__image"
+                      />
+                    </div>
                   </div>
                   <div
                     class="tab-pane fade"
@@ -344,43 +364,11 @@
                     tabindex="0"
                   >
                     <div class="gallery__images">
-                      <div
-                        class="gallery__images__block gallery__images__block_second"
-                      >
-                        <img
-                          src="./assets/images/picture5.png"
-                          alt=""
-                          class="gallery__images__block__image"
-                        /><img
-                          src="./assets/images/picture6.png"
-                          alt=""
-                          class="gallery__images__block__image"
-                        />
-                        <img
-                          src="./assets/images/picture7.png"
-                          alt=""
-                          class="gallery__images__block__image"
-                        />
-                      </div>
-                      <div
-                        class="gallery__images__block gallery__images__block_first"
-                      >
-                        <img
-                          src="./assets/images/picture2.png"
-                          alt=""
-                          class="gallery__images__block__image"
-                        />
-                        <img
-                          src="./assets/images/picture3.png"
-                          alt=""
-                          class="gallery__images__block__image"
-                        />
-                        <img
-                          src="./assets/images/picture4.png"
-                          alt=""
-                          class="gallery__images__block__image"
-                        />
-                      </div>
+                      <img
+                        src="./assets/images/tourists.jpeg"
+                        class="gallery__images__block__image"
+                        alt=""
+                      />
                     </div>
                   </div>
                   <div
