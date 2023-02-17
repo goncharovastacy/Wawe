@@ -24,6 +24,7 @@ input [type="text"] {
     font-size: inherit; 
     line-height: inherit; 
     margin: 0; 
+    resize: vertical; 
 }
 
 ::placeholder {
@@ -119,3 +120,89 @@ textarea {
 .logo_footer {
     margin: 50px 700px;
 }
+
+    @media screen and (max-width: 767px) { 
+        #end {
+            background-color: none;
+        }
+        
+        .logo_footer {
+            display: none;
+        }
+
+        .order, .app__footer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sign, .order_form, .contacts {
+            margin: auto;
+        }
+        
+        .form_field, .form_field_area {
+            width: 100%;
+            margin: 0;
+        }
+        
+        .submit_button {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .contacts {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .contacts_information {
+            padding: 20px;
+        }
+    }  
+
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        #end {
+            background-color: none;
+        }
+        
+        .logo_footer {
+            display: none;
+        }
+
+        .order, .app__footer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sign, .order_form, .contacts {
+            margin: auto;
+        }
+        
+        .form_field, .form_field_area {
+            width: 100%;
+            margin: 0;
+        }
+        
+        .submit_button {
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .contacts {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .contacts_information {
+            padding: 20px;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        #end {
+            background-color: #00B2A0;
+        }
+        
+        .logo_footer {
+            margin: 50px 700px;
+        }
+     }
