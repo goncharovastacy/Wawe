@@ -47,8 +47,17 @@
 }
 
 @media screen and (max-width: 767px) { 
+    .offers_sorts_standart_description, .offers_sorts_allinclusive_description, .offers_sorts_profi_description {
+        padding: 0px 40px 0 43px;
+    }
+
+    .offers_headline {
+        padding-top: 30px;
+    }
+    
     .offers_sorts {
         flex-direction: column;
+        padding: 0;
     }
 
     .offers_sorts_standart, .offers_sorts_allinclusive, .offers_sorts_profi {
@@ -57,9 +66,18 @@
 }  
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .offers_sorts_standart_description, .offers_sorts_allinclusive_description, .offers_sorts_profi_description {
+        padding: 0px 40px 0 43px;
+    }
+    
+    .offers_headline {
+        padding-top: 50px;
+    }
+    
     .offers_sorts {
         display: flex;
         flex-direction: row;
+        padding: 0;
     }
 
     .offers_sorts {

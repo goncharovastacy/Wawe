@@ -25,9 +25,17 @@
 
 /* -------------TABLET----------------- */
 @media (min-width: 768px) and (max-width: 1023px) {
+    #about {
+        padding: 0 25px 50px 25px;
+    }
+
     .about {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(1fr, 8);
+    }
+
+    #about h2 {
+        padding: 50px 0 50px 0;
     }
 
     .p2 {
@@ -46,7 +54,7 @@
 /* --------------PHONE-------------------- */
 @media (max-width: 767px) {
     #about {
-        padding: 0;
+        padding: 0 15px 50px 15px;
     }
 
     .about {
