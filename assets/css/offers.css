@@ -45,3 +45,28 @@
 .offers_sorts_profi_description_price {
     padding: 95px 0 45px 100px;
 }
+
+@media screen and (max-width: 767px) { 
+    .offers_sorts {
+        flex-direction: column;
+    }
+
+    .offers_sorts_standart, .offers_sorts_allinclusive, .offers_sorts_profi {
+        margin: 20px auto;
+    } 
+}  
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .offers_sorts {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .offers_sorts {
+        flex-direction: column;
+    }
+
+    .offers_sorts_standart, .offers_sorts_allinclusive, .offers_sorts_profi {
+        margin: 20px auto;
+    }
+}

@@ -2,3 +2,33 @@
     background-color: #FFFFFF;
 }
 
+.map {
+    max-width: 100%; 
+    margin: 200px 0 0 100px;
+}
+
+.mapArea {
+    max-width: 90%; 
+}
+
+/* -------------TABLET----------------- */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #map {
+        background-color: none;
+    }
+    
+    .map {
+        display: none;
+    }
+}
+
+/* --------------PHONE-------------------- */
+@media screen and (max-width: 767px) {
+    #map {
+        background-color: none;
+    }
+    
+    .map {
+        display: none;
+    }
+}

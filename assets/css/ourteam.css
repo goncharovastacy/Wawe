@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+
+.ourteam {
+    display: flex;
+    justify-content: center;
+    margin-top: 197px;
+}
+
+.ourteam_headline {
+    padding: 200px 15px;
+}
+
+.instructors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 212px;
+}
+
+.instructors__card {
+    max-width: 330px;
+}
+
+.instructors__card_name {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.instructors__card_position {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 200px;
+}
+
+@media screen and (max-width: 767px) { 
+    .ourteam {
+        padding: 0 0 80px;
+        margin: auto;
+    }
+
+    .instructors {
+        flex-direction: column;
+    }
+
+    .instructors__card {
+        justify-content: space-around;
+        margin: auto;
+    }
+}  
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .ourteam {
+        padding: 0 0 80px;
+        margin: auto;
+    }
+    .instructors {
+        flex-direction: column;
+    }
+
+    .instructors__card {
+        justify-content: space-around;
+        margin: auto;
+    }
+}
