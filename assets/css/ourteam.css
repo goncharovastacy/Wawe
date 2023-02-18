@@ -37,31 +37,41 @@
 
 @media screen and (max-width: 767px) { 
     .ourteam {
-        padding: 0 0 80px;
+        padding: 0 0 30px;
         margin: auto;
     }
 
     .instructors {
         flex-direction: column;
+        margin-top: 0;
     }
 
     .instructors__card {
         justify-content: space-around;
         margin: auto;
+    }
+
+    .instructors__card_position {
+        padding-bottom: 30px;
     }
 }  
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .ourteam {
-        padding: 0 0 80px;
+        padding: 0 0 50px;
         margin: auto;
     }
     .instructors {
         flex-direction: column;
+        margin-top: 0;
     }
 
     .instructors__card {
         justify-content: space-around;
         margin: auto;
+    }
+
+    .instructors__card_position {
+        padding-bottom: 30px;
     }
 }

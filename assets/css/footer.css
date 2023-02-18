@@ -121,7 +121,11 @@ textarea {
     margin: 50px 700px;
 }
 
-    @media screen and (max-width: 767px) { 
+    @media screen and (max-width: 767px) {
+        .form_headline {
+            padding: 20px 0;
+        }
+
         #end {
             background-color: none;
         }
@@ -160,6 +164,10 @@ textarea {
     }  
 
     @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .form_headline {
+            padding: 50px 0;
+        }
+
         #end {
             background-color: none;
         }
