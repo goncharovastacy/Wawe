@@ -3,12 +3,14 @@
 }
 
 .map {
-    max-width: 100%; 
-    margin: 200px 0 0 100px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    padding: 200px 0 0;
 }
 
 .mapArea {
-    max-width: 90%; 
+    padding: 0 15px;
 }
 
 /* -------------TABLET----------------- */
@@ -16,7 +18,7 @@
     #map {
         background-color: none;
     }
-    
+
     .map {
         display: none;
     }
@@ -27,7 +29,7 @@
     #map {
         background-color: none;
     }
-    
+
     .map {
         display: none;
     }
