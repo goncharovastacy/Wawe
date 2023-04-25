@@ -7,11 +7,11 @@ The website is adapted for desktop, tablets and mobile devices.</p>
 
 https://aelita-dzhafarova.github.io/wawe-2/
 
-<img src="./assets/images/readme/screen.png" alt="screen1" width="70%">
-<img src="./assets/images/readme/screen2.png" alt="screen2" width="70%">
-<img src="./assets/images/readme/screen3.png" alt="screen3" width="70%">
-<img src="./assets/images/readme/screen4.png" alt="screen4" width="70%">
-<img src="./assets/images/readme/screen5.png" alt="screen5" width="70%">
+<img src="./assets/images/readme/screen.png" alt="screen1" width="80%">
+<img src="./assets/images/readme/screen2.png" alt="screen2" width="80%">
+<img src="./assets/images/readme/screen3.png" alt="screen3" width="80%">
+<img src="./assets/images/readme/screen4.png" alt="screen4" width="80%">
+<img src="./assets/images/readme/screen5.png" alt="screen5" width="80%">
 
 ## Technologies:
 <code><img height="40" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg"></code>
