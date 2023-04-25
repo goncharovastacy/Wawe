@@ -57,6 +57,54 @@
     color: #242121;
 }
 
+
+
+@media screen and (min-width: 1024px) {
+    .services {
+        padding: 200px 15px;
+    }
+
+    .services__description {
+        margin-top: 101px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(184px, 350px));
+        column-gap: 75px;
+    }
+
+    .services__advantages {
+        margin-top: 103px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services__description__block__headline h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .services {
+        padding: 100px 15px;
+    }
+
+    .services__description {
+        margin-top: 101px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(184px, 350px));
+        column-gap: 75px;
+    }
+
+    .services__advantages {
+        margin-top: 103px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .services__description__block__headline h3 {
+        font-size: 24px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .services {
         padding: 50px 15px;
@@ -86,51 +134,5 @@
 
     .services__advantages__block__image {
         max-width: 346px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .services {
-        padding: 100px 15px;
-    }
-
-    .services__description {
-        margin-top: 101px;
-        display: grid;
-        grid-template-columns: repeat(3, minmax(184px, 350px));
-        column-gap: 75px;
-    }
-
-    .services__advantages {
-        margin-top: 103px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .services__description__block__headline h3 {
-        font-size: 24px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .services {
-        padding: 200px 15px;
-    }
-
-    .services__description {
-        margin-top: 101px;
-        display: grid;
-        grid-template-columns: repeat(3, minmax(184px, 350px));
-        column-gap: 75px;
-    }
-
-    .services__advantages {
-        margin-top: 103px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .services__description__block__headline h3 {
-        font-size: 24px;
     }
 }
