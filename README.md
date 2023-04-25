@@ -1,6 +1,7 @@
 # Wawe
 
-<p>Website for a surf school.</p> 
+<p>Website for the Wawe surf school. <br>
+The website is adapted for desktop, tablets and mobile devices.</p> 
 
 ## Result:
 
@@ -13,9 +14,9 @@ https://aelita-dzhafarova.github.io/wawe-2/
 <img src="./assets/images/readme/screen5.png" alt="screen5" width="70%">
 
 ## Technologies:
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<img height="20" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg">
+<code><img height="40" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg"></code>
+<code><img height="40" src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"></code>
+<code><img height="40" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg"></code>
 
 ## Authors:
 <table>
@@ -28,4 +29,5 @@ https://aelita-dzhafarova.github.io/wawe-2/
  </tr>
 </table>
 
-Link of figma https://buildhtml.ru/template/234
+## Figma: 
+https://buildhtml.ru/template/234
