@@ -2,11 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@700&family=Roboto+Condensed:wght@300&display=swap');
 
-
 header {
+    position: absolute;
+    width: 100%;
+}
+
+.nav {
+    padding-top: 35px;
     display: grid;
-    grid-template-columns: repeat (1fr, 16);
-    grid-template-rows: 15% 35% 50%;
+    grid-template-columns: 15% 75%;
+}
+
+.banner-wrapper {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,22 +21,20 @@ header {
     height: 100vh;
 }
 
-.logo {
-    padding-top: 1.5rem;
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
-}
 
-label, #toggle {
+label,
+#toggle {
     display: none;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    padding-top: 1.5rem;
-    grid-column: 5 / 12;
-    grid-row: 1 / 2;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
 }
 
 nav a {
@@ -39,7 +44,7 @@ nav a {
     line-height: 28.13px;
     font-weight: 200;
     font-size: 1.2em;
-    color: white; 
+    color: white;
 }
 
 nav a:hover {
@@ -47,9 +52,7 @@ nav a:hover {
 }
 
 .banner {
-    grid-column: 1 / 16;
-    grid-row: 2 / 3;
-    padding-top: 4rem;
+    padding-top: 170px;
 }
 
 h1 {
@@ -80,10 +83,17 @@ h1 {
 
 /* -------------TABLET----------------- */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .nav {
+        padding-top: 0;
+    }
+
     .logo {
         padding-top: 0.8rem;
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
+    }
+
+    .nav {
+        display: block;
+        margin-left: 20px;
     }
 
     nav {
@@ -92,20 +102,20 @@ h1 {
 
     label {
         color: white;
-        display:block;
+        display: block;
         position: absolute;
-        top: 10px;
+        top: 0px;
         right: 20px;
         font-size: 3rem;
         cursor: pointer;
     }
 
-    #toggle:checked ~ nav {
-        position:absolute;
-        display:flex;
+    #toggle:checked~nav {
+        position: absolute;
+        display: flex;
         flex-direction: column;
         background-color: #0D302C;
-        text-align:center;
+        text-align: center;
         width: 100vw;
         height: 320px;
         top: 70px;
@@ -113,7 +123,7 @@ h1 {
 
     header a:hover {
         padding-bottom: 10px;
-        border-bottom: 0px ;
+        border-bottom: 0px;
     }
 
     header a {
@@ -123,7 +133,9 @@ h1 {
 
 /* --------------PHONE-------------------- */
 @media screen and (max-width: 767px) {
-    .logo, .scroll {
+
+    .logo,
+    .scroll {
         display: none;
     }
 
@@ -133,20 +145,20 @@ h1 {
 
     label {
         color: white;
-        display:block;
+        display: block;
         position: absolute;
-        top: 10px;
+        top: 0px;
         right: 20px;
         font-size: 3rem;
         cursor: pointer;
     }
 
-    #toggle:checked ~ nav {
-        position:absolute;
-        display:flex;
+    #toggle:checked~nav {
+        position: absolute;
+        display: flex;
         flex-direction: column;
         background-color: #0D302C;
-        text-align:center;
+        text-align: center;
         width: 100vw;
         height: 320px;
         top: 70px;
@@ -154,7 +166,7 @@ h1 {
 
     header a:hover {
         padding-bottom: 10px;
-        border-bottom: 0px ;
+        border-bottom: 0px;
     }
 
     header a {

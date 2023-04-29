@@ -56,7 +56,7 @@ h2::after {
     }
 
     h2::after {
-        content: url(../images/slash.png);
+        content: url(../images/after.svg);
         position: absolute;
         margin-top: 10px;
     }
