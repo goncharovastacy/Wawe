@@ -5,7 +5,7 @@ The website is adapted for desktop, tablets and mobile devices.</p>
 
 ## Result:
 
-https://aelita-dzhafarova.github.io/wawe-2/
+https://goncharovastacy.github.io/Wawe/
 
 <img src="./assets/images/readme/screen.png" alt="screen1" width="80%">
 <img src="./assets/images/readme/screen2.png" alt="screen2" width="80%">
